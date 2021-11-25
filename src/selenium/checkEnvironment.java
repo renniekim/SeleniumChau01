@@ -23,7 +23,7 @@ public class checkEnvironment {
 		System.setProperty("webdriver.gecko.driver", ".\\Lib\\geckodriver.exe");
 		//driver = new ChromeDriver();
 		
-//		Firefox11;
+//		Firefox141;
 		driver = new FirefoxDriver();
 		driver.get("https://site.qr-row.staging.goquo.io/");
 		driver.manage().window().maximize();
